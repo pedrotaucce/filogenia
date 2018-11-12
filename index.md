@@ -29,7 +29,7 @@ Notebook com os programas a serem utilizados previamente instalados (a seguir). 
 
 ## Instrutores
 
-- [Dr. Pedro Taucce](www.pedrotaucce.org)<br>
+- [Dr. Pedro Taucce](http://www.pedrotaucce.org)<br>
 - [Dr. Paulo Pinheiro](http://lattes.cnpq.br/8623318349513480)
 
 
