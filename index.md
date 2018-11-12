@@ -43,3 +43,5 @@ Notebook com os programas a serem utilizados previamente instalados (a seguir). 
 |               |16:00<br>18:00|Construindo a árvore utilizando o <br>critério da máxima parcimônia|-O que é máxima parcimônia?<br>-Introdução ao programa TNT|
 |Domingo (16/12)|08:00<br>10:00|Construindo a árvore utilizando o <br>critério da máxima verossimilhança|-O que é máxima verossimilhança<br> - Introdução ao programa RAxML
 |               |10:00<br>12:00|Construindo a árvore utilizando <br> inferência Bayesiana|-O que é inferência Bayesiana?<br>-Introdução ao programa MrBayes
+
+## Subiremos o conteúdo do nosso workshop em breve, neste mesmo site!
