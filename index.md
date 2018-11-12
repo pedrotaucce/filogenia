@@ -9,7 +9,7 @@ detalhadamente.
 
 ## Quando e onde?
 
-15-16 de dezembro de 2018
+15 e 16 de dezembro de 2018<br>
 Universidade Federal de Minas Gerais (UFMG)
 
 ## Material a ser levado pelos alunos
