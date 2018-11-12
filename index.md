@@ -7,6 +7,11 @@ Sejam bem-vindos ao nosso workshop **Noções básicas em softwares para filogen
 Noções básicas de sistemática. Como o minicurso visa a familiarização com os softwares, o mesmo não abordará a teoria dos métodos
 detalhadamente.
 
+## Quando e onde?
+
+15-16 de dezembro de 2018
+Universidade Federal de Minas Gerais (UFMG)
+
 ## Material a ser levado pelos alunos
 
 Notebook com os programas a serem utilizados previamente instalados (a seguir). Lembre-se de baixar a versão de acordo com o seu sistema operacional!
@@ -21,6 +26,14 @@ Notebook com os programas a serem utilizados previamente instalados (a seguir). 
 8. [TNT 1.5](http://www.lillo.org.ar/phylogeny/tnt/)
 9. [RAxML 8.2.10](https://github.com/stamatak/standard-RAxML)
 10. [MrBayes 3.2](http://mrbayes.sourceforge.net/download.php)
+
+## Instrutores
+
+[Dr. Pedro Taucce](www.pedrotaucce.org)<br>
+[Dr. Paulo Pinheiro](http://lattes.cnpq.br/8623318349513480)
+
+
+## Horário
 
 |Dia|Horário|Aula|Conteúdo|
 |:---|:---:|:---:|:---:|
