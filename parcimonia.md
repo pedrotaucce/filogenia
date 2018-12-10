@@ -2,7 +2,7 @@
 
 Uma vez que você esteja com suas sequências alinhadas e concatenadas, o próximo passo é abrir o seu dataset em um software de análise filogenética. Uma das opções é o TNT: um software gratuito que lida exclusivamente com o critério da Máxima Parcimônia. Ao abrir o programa, a primeira coisa a se fazer é criar um output file (esse será um arquivo .txt que registrará todas as ações realizadas por você no programa). Sugerimos que salve todos os arquivos de uma análise em um mesmo diretório.
 
-![Fig1](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig1_tnt.png?raw=true)
+![Fig1](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_01_TNT.png?raw=true)
 
 ```
 File > Output > Open Output File
@@ -13,25 +13,25 @@ Feito isso, você deverá agora, antes de abrir seu dataset, decidir como tratar
 ```
 Format > Data Format > Read Gaps as Missing
 ```
-![Fig2](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig2tnt.png?raw=true)
+![Fig2](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_02_TNT.png?raw=true)
 
 Feito isso é hora de abrir sua matriz. Pode-se fazer isso de duas maneiras:
 
 ```
 File > Open input file
 ```
-![Fig3](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig3tnt.png?raw=true)
+![Fig3](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_03_TNT.png?raw=true)
 
 Ou ir no Display, no primeiro ícone com uma pasta aberta, com arquivos:
 
-![Fig4](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig4tnt.png?raw=true)
+![Fig4](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_04_TNT.png?raw=true)
 
 Depois de aberta a matriz, é importante definir sua raiz. Por default, o TNT reconhece o primeiro táxon da matriz como a raiz. Se você pretende usar outro, recomendamos definir antes de rodar sua análise. Vá em:
 
 ```
 Data > Outgroup taxon
 ```
-![Fig5](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig5tnt.png?raw=true)
+![Fig5](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_05_TNT.png?raw=true)
 
 Selecione o táxon de interesse e clique em OK. A seguinte mensagem deverá aparecer na última linha do buffer: 
 ```
@@ -50,7 +50,7 @@ Settings > Memory
 ```
 A seguinte tela aparecerá:
 
-![Fig6](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig6tnt.png?raw=true)
+![Fig6](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_06_TNT.png?raw=true)
 
 Em Max. Trees (canto superior esquerdo), digite o numero desejado (o programa tem limite de capacidade de acordo com o banco de dados a ser trabalhado.
 
@@ -60,7 +60,7 @@ Em Max. Trees (canto superior esquerdo), digite o numero desejado (o programa te
 Analyze > Traditional search
 ```
 
-![Fig7](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig7tnt.png?raw=true)
+![Fig7](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_07_TNT.png?raw=true)
 
 **Random seed:** é um número aleatório de identificação de por onde começar a busca, não significa quantidade. É como se você estivesse utilizando uma semente específica para plantar, e não uma qualquer do saco. Para você replicar sua análise, recomenda-se sempre usar o mesmo número. Importante, caso preencher com 0, o TNT será aleatório e iniciará a análise considerando o relógio do computador, e pode ser que você não chegue no mesmo resultado em futuras análises.<br>
 **Repls. (number of add. Seqs.):** este é o número de árvores iniciais para fazer sua busca. A partir de cada uma delas será realizada uma perturbação para encontrar outras árvores possíveis.<br>
@@ -75,7 +75,7 @@ Diferentemente da busca tradicional, que em datasets grandes tende a ficar presa
 ```
 Analyze > New Technologies Search
 ```
-![Fig8](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig8tnt.png?raw=true)
+![Fig8](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_08_TNT.png?raw=true)
 
 Na coluna da esquerda, existem quatro opões de ferramentas para utilizar. Você pode escolher quais deseja, nas diferentes combinações que preferir.<br> 
 **Sectorial Search:** Basicamente pega-se um clado X, e reanalisa ele independentemente do restante da árvore. A reanálise é “recolada” na árvore original. Se o resultado obtido é mais curto que a topologia original, a nova topologia é retida (Goloboff, 1999).<br>
@@ -87,7 +87,7 @@ Na coluna da esquerda, existem quatro opões de ferramentas para utilizar. Você
 
 Ao terminar uma busca, uma tela similar à seguinte deverá aparecer no seu buffer:
 
-![Fig9](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig9tnt.png?raw=true)
+![Fig9](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_09_TNT.png?raw=true)
 
 Neste caso, foi uma busca com o deffault de Traditional Search.
 Na penultima linha, o best score é o valor do comprimento minimo encontrado, ou seja, seu resultado mais parcimonioso. À frente dele, X trees retained, é o número de topologias encontradas que possuem tal comprimento.
@@ -104,7 +104,7 @@ Analyze > Resampling
 ```
 A seguinte tela irá aparecer:
 
-![Fig10](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig10tnt.png?raw=true)
+![Fig10](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_10_TNT.png?raw=true)
 
 Ao escolher Bootstrap, você deverá optar por:
 
@@ -122,7 +122,7 @@ Para um suporte razoável, é comum fazer cálculos de 1000 réplicas (canto sup
 
 Ao terminar o cálculo, imagem similar à seguinte irá aparecer na tela do seu computador:
 
-![Fig11](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig11tnt.png?raw=true)
+![Fig11](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_11_TNT.png?raw=true)
 
 Antes de qualquer coisa, o primeiro botão que você deve pressionar é o “M” do seu teclado. Assim abrirá uma caixa de diálogo para você salvar um arquivo metafile com o resultado da sua reamostragem de suporte. Se você apertar “ESC”, por exemplo, essa tela sairá, e você perderá os seus resultados. E acredite: você não quer isso! Um calculo de suporte em geral é bem demorado!
 
@@ -147,11 +147,11 @@ Pelo menu superior:
 ```
 Trees > Consensus
 ```
-![Fig12](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig12tnt.png?raw=true)
+![Fig12](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_12_TNT.png?raw=true)
 
 E então a seguinte tela irá aparecer:
 
-![Fig13](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig13tnt.png?raw=true)
+![Fig13](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_13_TNT.png?raw=true)
 
 Nela, mantenha a caixa “Strict” marcada, em “Calculate...”, em “Using...” e “Include...” mantenha também o default, isto é, “all trees” e “all taxa” selecionados (a não ser que você queira avaliar algo especificamente).
 Para ver seu consenso, em “Show/Save...” selecione “show/save tree diagram”. Clique em OK, e uma árvore aparecerá na tela do seu computador. Para salvá-la em metafile, assim como no Jackknife e Bootstrap, aperte “M”, e você poderá salvar a figura do seu consenso. 
@@ -160,7 +160,7 @@ Porém, para dar seguimento ao cálculo de Bremer, você deverá selecionar a op
 
 A outra opção para calcular o consenso é o Menu Interativo. Basta ir na opção indicada na figura abaixo, e seguir os mesmos passos descritos acima.
 
-![Fig14](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig14tnt.png?raw=true)
+![Fig14](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_14_TNT.png?raw=true)
 
 Um,a vez calculado o consenso, vá em:
 
@@ -168,19 +168,19 @@ Um,a vez calculado o consenso, vá em:
 Trees > Tree Buffer > Select trees
 ```
 
-![Fig15](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig15tnt.png?raw=true)
+![Fig15](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_15_TNT.png?raw=true)
 
 Ou no Menu interativo em: 
 
-![Fig16](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig16tnt.png?raw=true)
+![Fig16](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_16_TNT.png?raw=true)
 
 A seguinte janela irá aparecer:
 
-![Fig17](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig17tnt.png?raw=true)
+![Fig17](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_17_TNT.png?raw=true)
 
 Clique em select trees, e a seguinte janela irá aparecer:
 
-![Fig18](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig18tnt.png?raw=true)
+![Fig18](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_18_TNT.png?raw=true)
 
 Quando você salvou seu consenso estrito, deverá ter notado que surgiu a seguinte mensagem no Buffer do programa: “Strict consensus of Z trees (0 taxa excluded) calculated, as tree X.” Este X, é o número de identificação da última árvore dos seus resultados. Sendo assim, na janela acima, você deverá selecionar doas as árvores da lista da esquerda, exceto a última (em “X trees included”) e clicar no botão >>>. E depois clique em OK. E outra vez em OK na janela remanescente. Dessa maneira a única árvore que ficou incluída deverá ser o seu consenso calculado.
 
@@ -188,15 +188,15 @@ Agora, voltemos ao menu:
 ```
 Trees>Bremer Supports
 ```
-![Fig19](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig19tnt.png?raw=true)
+![Fig19](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_19_TNT.png?raw=true)
 
 A seguinte tela irá aparecer:
 
-![Fig20](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig20tnt.png?raw=true)
+![Fig20](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_20_TNT.png?raw=true)
 
 Mantenha tudo no default. Como você já selecionou anteriormente o consenso, verá que no menu da direita “Calculate supports...” a opção “TBR from existing trees plot on tree 0” é a única possível. Sua árvore X se transformou em árvore 0 por que você excluiu as demais para a análise. E, apesar de não ser tão indutivo, você agora DEVE clicar sobre “TBR from existing trees plot on tree 0”. O seguinte menu irá aparecer:
 
-![Fig21](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig21tnt.png?raw=true)
+![Fig21](https://github.com/pedrotaucce/filogenia/blob/master/figures/Fig_21_TNT.png?raw=true)
 
 Como não estamos trabalhando aqui com pesagem implícita, ignore o campo “Relative fit difference” e mantenha-o com o valor 0. No campo superior, “Retain trees suboptimal by” você deverá colocar o número de passos a mais que pretende testar, para achar os valores de Bremer dos seus nós. E aqui se começa um processo de tentativa e erro. Se iniciar por exemplo com um valor de, por exemplo, 15, e clicar em OK nos dois menus, seu resultado aparecerá como um diagrama na tela (para salvá-lo em Metafile, novamente aperte “M”). Você provavelmente verá que, com 15 passos a mais, muitos ramos terão um valor anotado. Este é o valor de Bremer do nó acima dele. Porém, em outros ramos, o valor 15? (acrescido de uma interrogação) estará presente. Isso significa que ao buscar árvores 15 passos mais compridas do que as suas, você ainda não foi capaz de colapsar todos os nós. Sendo assim, você deverá calcular o Bremer novamente, e colocar um valor maior do que 15 em “Retain trees suboptimal by”. E esse processo se repetirá até você atingir valores sem interrogação em todos os ramos.
 
