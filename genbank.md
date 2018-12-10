@@ -5,3 +5,4 @@ O [GenBank](www.ncbi.nlm.nih.gov/genbank/) é uma base de dados que contem todas
 
 ## Usando o BLAST
 
+<a href="sequencias/panthera_onca.fas" download="panthera_onca.fas" >Download</a>
