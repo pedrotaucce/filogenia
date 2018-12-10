@@ -10,3 +10,14 @@ Como dito anteriormente, a ferramenta BLAST compara a sequência desejada com to
 ![Fig1](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_01_gb.png?raw=true)
 
 Outra maneira de usar o BLAST é coocando como input o arquivo todo, clicando no botão "Escolher arquivo.
+
+Qual foi a sequência mais próxima à nossa? Se você tivesse acabado de produzir esta sequência, o que isto poderia significar?
+
+## Usando a plataforma R para adquirir sequêcias
+
+Se todas as sequências de DNA públicas já produzidas estão no GenBank, é lá que vamos quando queremos adquirir alguma sequência. Experimente navegar no [site](www.ncbi.nlm.nih.gov/genbank/): busque pela sequência de algum organismo e de um fragmento. Se estiver sem ideia, vamos ver sequências de rã-de-unhas-africana (*Xenopus laevis*) para o fragmento 16S. Digite no campo de busca:
+```
+Xenopus laevis 16S
+```
+
+E então aperte o botão search.
