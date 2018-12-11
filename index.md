@@ -35,6 +35,8 @@ Notebook com os programas a serem utilizados previamente instalados (a seguir). 
 
 ## Horário
 
+Cique nos links no quadro abaixo para ver o conteúdo das aulas:
+
 |Dia|Horário|Aula|Conteúdo|
 |:---|:---:|:---:|:---:|
 |Sábado (15/12) |08:00<br>10:00|Introdução            |- Introdução ao minicurso<br>- Instalação dos softwares nas máquinas dos alunos<br>- [Aquisição de sequências do GenBank através da Plataforma R](https://pedrotaucce.github.io/filogenia/genbank)|
