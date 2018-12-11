@@ -13,7 +13,7 @@ Outra maneira de usar o BLAST é coocando como input o arquivo todo, clicando no
 
 Qual foi a sequência mais próxima à nossa? Se você tivesse acabado de produzir esta sequência, o que isto poderia significar?
 
-## Usando a plataforma R para adquirir sequêcias
+## Usando a plataforma R para adquirir sequências
 
 Se todas as sequências de DNA públicas já produzidas estão no GenBank, é lá que vamos quando queremos adquirir alguma sequência. Experimente navegar no [site](www.ncbi.nlm.nih.gov/genbank/): busque pela sequência de algum organismo e de um fragmento. Se estiver sem ideia, vamos ver sequências de rã-de-unhas-africana (*Xenopus laevis*) para o fragmento 16S. Digite no campo de busca:
 ```
