@@ -1,0 +1,3 @@
+# Alinhamento
+
+Apesar de muitos sistematas darem pouca importância ao alinhamento e o tratarem apenas como parte do processo para a obtenção de uma árvore filogenética, esta etapa é extremamente importante para a análise filogenética como um todo, pois é a etapa em que definimos a **hipótese de homologia primária** entre as nossas sequências. Em outras palavras, nesta etapa assumimos que as bases que estão alinhadas em uma mesma coluna **divergiram de um mesmo estado ancestral**. Sendo esta uma etapa tão importante, existem vários softwares e algoritmos que são comumente utilizados para alinhar sequências de DNA (e também de aminoácidos, mas não vamos abordar esta parte no curso): 
