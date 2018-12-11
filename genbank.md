@@ -9,7 +9,7 @@ Como dito anteriormente, a ferramenta BLAST compara a sequência desejada com to
 
 ![Fig1](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_01_gb.png?raw=true)
 
-Outra maneira de usar o BLAST é coocando como input o arquivo todo, clicando no botão "Escolher arquivo.
+Outra maneira de usar o BLAST é colocando como input o arquivo todo, clicando no botão "Escolher arquivo.
 
 Qual foi a sequência mais próxima à nossa? Se você tivesse acabado de produzir esta sequência, o que isto poderia significar?
 
