@@ -75,7 +75,7 @@ Com isso espera-se que, na pasta desejada, você tenha dois arquivos: **hylodida
 
 ### Baixando as sequências por GenBank id
 
-Suponhamos que acaba de sair uma nova espécie de *Megaelosia*, e os autores do trabalho fizeram uma ótima árvore, a qualk você gostariua de usa e apenas adicionar sua sequência nova de *Hylodes*. Infelizmente os autores não disponibilizaram a matriz deles, mas no material suplementar existem todas as GenBank ids utilizadas para construir a matriz. Nesse caso você pode baixar do GenBank todas as sequências deles, utilizando o seguinte código:
+Suponhamos que acaba de sair uma nova espécie de *Megaelosia*, e os autores do trabalho fizeram uma ótima árvore, a qual você gostaria de usar e apenas adicionar sua espécie nova de *Hylodes* para posicioná-la. Infelizmente os autores não disponibilizaram a matriz utilizada no artigo, mas no material suplementar existem todas as GenBank ids utilizadas para construir a matriz. Nesse caso você pode baixar do GenBank todas as sequências deles, utilizando o seguinte código:
 ```
 library("ape")
 library("rentrez")
