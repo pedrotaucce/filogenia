@@ -101,6 +101,19 @@ Caso queira saber mais sobre os algoritmos do MAFFT é só clicar [aqui](https:/
 
 ## MAFFT (no servidor)
 
+Algumas vezes possuimos um número muito grande de sequências muito longas, e fazer o alinhamento no nosso computador pode demorar horas e até mesmo dias. Para momentos como este (ou até para ser utilizado em computadores que não possuem MAFFT instalado) existe um [servidor online](https://mafft.cbrc.jp/alignment/server/), mantido pelo próprio grupo que desenvolveu o software. Vamos alinhar o fragmento do 16S nesse servidor. 
+
+Primeiramente entre no [site do servidor](https://mafft.cbrc.jp/alignment/server/). Você verá uma caixinha para colar as sequências (como fizemos no BLAST) e também um botão *escolher arquivo*. Clique nele e suba o arquivo **hylodidae_16S.fas** para o servidor, e depois marque as opções como na figura abaixo:
+
+![Fig3](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_03_al.png?raw=true)
+
+Não é necessário mexer nos outros parâmetros, deixe-os no default. Com isto faremos um alinhamento parecido com o que fizemos no item anterior. Agora clique no botão *submit*.
+
+Agora o navegador irá para outra página, com os resultados. Para baixar o arquivo resultante como *.fasta* é só clicar com o botão direito onde está escrito *Fasta format* e depois em *Salvar link como*. Salve o arquivo resultante com o nome que quiser, mas use a extensão *.fas*.
+
+![Fig4](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_04_al.png?raw=true)
+
+Agora com os alinhamentos terminados podemos avançar e ir [concatenar a matriz]()!
 ## Referências
 
 Edgar RC. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Research, 32, 1792-1797.<br>
