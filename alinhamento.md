@@ -12,7 +12,7 @@ Alignment > Align By Muscle
 ```
 Uma tela irá se abrir, onde você poderá mudar alguns parâmetros no algoritmo MUSCLE. Vamos utilizar o default, clique no botão **Compute**. Agora aguarde um pouquinho e pronto! Suas sequências estão alinhadas. 
 
-O COI é um gene codificante, então algo interessante a se fazer é ver se as sequências estão corretas, começando no codon certo, por exemplo. Isso influenciará em etapas posteriores, então é interessante que sempre comecemos no codon 1. Isso também serve para checar se não existem *stop codons* no meio das suas sequências, o que poderia indicar que você sequenciou um pseudogene ou o gene errado.  Após o alinhamento pronto, clique em **Translated Protein Sequences**, e então quando a caixa se abrir com a pergunta *The Current Genetic Code is: Standard. Is this correct?* clique em *No*, como na figura abaixo:
+O COI é um gene codificante, então algo interessante a se fazer é ver se as sequências estão corretas, começando no codon certo, ou se os possíveis gaps são múltilos de três, por exemplo. Isso influenciará em etapas posteriores, então é interessante que sempre comecemos no codon 1. Isso também serve para checar se não existem *stop codons* no meio das suas sequências, o que poderia indicar que você sequenciou um pseudogene ou o gene errado.  Após o alinhamento pronto, clique em **Translated Protein Sequences**, e então quando a caixa se abrir com a pergunta *The Current Genetic Code is: Standard. Is this correct?* clique em *No*, como na figura abaixo:
 
 ![Fig1](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_01_al.png?raw=true)
 
@@ -28,7 +28,7 @@ Repita o processo com as sequências de 16S mas, visto que este não é um gene 
 
 O MAFFT é um programa um pouco mais completo que o MUSCLE, por ter vários algoritmos diferentes para alinhar suas sequências. Alguns deles são mais rápidos e menos precisos, ideais para um grande número de sequências ou para fragmentos codificantes, sem estrutura secundária, e outros são mais precisos e mais lentos, e são ideais para fragmentos com estrutura secundária, por exemplo. Por serem mais lentos, estes últimos não podem ser utilizados em grandes conjuntos de sequências.
 
-O que devemos fazer primeiramente é copiar as duas sequências que baixamos acima no diretório em que o programa mafft está instalado. Feito isto, abra o arquivo *mafft.bat* no diretório em que você instalou o programa. Uma janela do prompt de comando se abrirá e você deverá digitar o nome do arquivo a ser alinhado. Vamos começar pelas sequências de COI:
+O que devemos fazer primeiramente é copiar os dois arquivos com as sequências que baixamos acima no diretório em que o programa mafft está instalado. Feito isto, abra o arquivo *mafft.bat* no diretório em que você instalou o programa. Uma janela do prompt de comando se abrirá e você deverá digitar o nome do arquivo a ser alinhado. Vamos começar pelas sequências de COI:
 ```
    MAFFT v7.409 (2018/Aug/22)
 
@@ -49,7 +49,7 @@ Agora devemos escrever o nome pretendido do arquivo em que teremos as sequência
 Output file?
 @ hylodidae_coi_alinhado.fas
 ```
-Nossa próxima escolha será em qual formato o nosso arquivo de saída estará. Vamos continuar no formato *.fasta*, e escolhendo a opção 3 colocaremos as sequências parecidas mais próximas das outras. Isto pode ser interessante para vermos se há alguma anomalia nas nossas sequências ou no nosso alinhamento.
+Nossa próxima escolha será em qual formato o nosso arquivo de saída estará. Vamos continuar no formato *.fasta*, e escolhendo a opção 3 colocaremos as sequências parecidas mais próximas umas das outras. Isto pode ser interessante para vermos se há alguma anomalia nas nossas sequências ou no nosso alinhamento.
 ```
 Output format?
   1. Clustal format / Sorted
@@ -60,7 +60,7 @@ Output format?
   6. Phylip format  / Input order
 @ 3
 ```
-Depois temos que escolher qual algoritmo de alinhamento usaremos. Escolhendo a opção 1 o programa escolhe um dos algoritmos automaticamente. Como conhecemos o programa, escolheremos a opção dois *FFT-NS-2*, que parte de uma matriz de distâncias confiável mas não é tão lenda quanto outros algoritmos presentes no MAFFT.
+Depois temos que escolher qual algoritmo de alinhamento usaremos. Escolhendo a opção 1 o programa escolhe um dos algoritmos automaticamente. Como conhecemos o programa, escolheremos a opção dois *FFT-NS-2*, que parte de uma matriz de distâncias confiável mas não é tão lenta quanto outros algoritmos presentes no MAFFT.
 ```
 Strategy?
   1. --auto
