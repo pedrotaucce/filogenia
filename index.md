@@ -37,7 +37,7 @@ Notebook com os programas a serem utilizados previamente instalados (a seguir). 
 
 |Dia|Horário|Aula|Conteúdo|
 |:---|:---:|:---:|:---:|
-|Sábado (15/12) |08:00<br>10:00|Introdução            |- Introdução ao minicurso<br>- Instalação dos softwares nas máquinas dos alunos<br>- Aquisição de sequências do GenBank através da Plataforma R|
+|Sábado (15/12) |08:00<br>10:00|Introdução            |- Introdução ao minicurso<br>- Instalação dos softwares nas máquinas dos alunos<br>- [Aquisição de sequências do GenBank através da Plataforma R](https://pedrotaucce.github.io/filogenia/genbank)|
 |               |10:00<br>12:00|Construindo a Matriz  |- Alinhamento: qual software utilizar?<br>- Alinhamento: utilizando o software Muscle implementado no programa MEGA 7<br>- Alinhamento: utilizando o software MAFFT através de linha de comando e servidor online<br>- [Concatenamento: programa Sequence Matrix](https://pedrotaucce.github.io/filogenia/sequencematrix)|
 |               |14:00<br>16:00|Particionando a Matriz e escolhendo <br>o modelo molecular que mais se encaixa nos dados|- Particionamento da matriz: PartitionFinder 2<br>- Escolha do melhor modelo: PartitionFinder 2 e jModelTest2|
 |               |16:00<br>18:00|Construindo a árvore utilizando o <br>critério da máxima parcimônia|-O que é máxima parcimônia?<br>-[Introdução ao programa TNT](https://pedrotaucce.github.io/filogenia/parcimonia)|
