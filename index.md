@@ -22,10 +22,12 @@ Notebook com os programas a serem utilizados previamente instalados (a seguir). 
 4. [MAFFT 7](https://mafft.cbrc.jp/alignment/software/)
 5. [SequenceMatrix](https://github.com/gaurav/taxondna/releases/tag/1.8)
 6. [PartitionFinder2](https://github.com/brettc/partitionfinder/releases/tag/v2.1.1)
-7. [JModelTest2](https://github.com/ddarriba/jmodeltest2/releases)
+7. [JModelTest2](https://github.com/ddarriba/jmodeltest2/files/157117/jmodeltest-2.1.10.tar.gz)
 8. [TNT 1.5](http://www.lillo.org.ar/phylogeny/tnt/)
 9. [RAxML 8.2.10](https://github.com/stamatak/standard-RAxML)
 10. [MrBayes 3.2](http://mrbayes.sourceforge.net/download.php)
+
+**MUITO IMPORTANTE** é que vocês tenham o [java](https://www.java.com/pt_BR/download/) e o [python 2.7](https://www.python.org/downloads/) (a maneira mais fácil de instalar este python é instalar o programa [Anaconda](https://www.anaconda.com/download/)). Não é o python 3, tem que ser o **python 2!!!**
 
 ## Instrutores
 
