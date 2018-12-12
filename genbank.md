@@ -1,7 +1,7 @@
 # Aquisição de sequências no GenBank
 ## O que é o GenBank?
 
-O [GenBank](www.ncbi.nlm.nih.gov/genbank/) é uma base de dados que contem todas as sequências de DNA disponíveis publicamente. Quando você publica um artigo utilizando sequências de DNA, provavelmente você visitou o GenBank para adquirir sequências antes de começar suas análises e muito provavelmente irá acessá-lo depois para depositar as sequências que produziu. Uma funcionalidade muito útil do GenBank é o [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome), onde você pode pegar uma sequência e comparar com **TODAS** as sequências disponíveis na imensa base de dados do GenBank. É muito útil, por exemplo, para saber se a sequência em questão está contaminada.
+O [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) é uma base de dados que contem todas as sequências de DNA disponíveis publicamente. Quando você elabora um trabalho utilizando sequências de DNA, provavelmente você irá visitar o GenBank para adquirir sequências antes de começar suas análises e muito provavelmente irá acessá-lo depois para depositar as sequências que produziu: é obrigatório depositar as sequências num repositório público para ter um artigo publicado. Uma funcionalidade muito útil do GenBank é o [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome), onde você pode pegar uma sequência e comparar com **TODAS** as sequências disponíveis na imensa base de dados do GenBank. É muito útil, por exemplo, para saber se a sequência em questão está contaminada.
 
 ## Usando o BLAST
 
@@ -15,7 +15,7 @@ Qual foi a sequência mais próxima à nossa? Se você tivesse acabado de produz
 
 ## Usando a plataforma R para adquirir sequências
 
-Se todas as sequências de DNA públicas já produzidas estão no GenBank, é lá que vamos quando queremos adquirir alguma sequência. Experimente navegar no [site](www.ncbi.nlm.nih.gov/genbank/): busque pela sequência de algum organismo e de um fragmento. Se estiver sem ideia, vamos ver sequências de rã-de-unhas-africana (*Xenopus laevis*) para o fragmento 16S. Digite no campo de busca:
+Se todas as sequências de DNA públicas já produzidas estão no GenBank, é lá que vamos quando queremos adquirir alguma sequência. Experimente navegar no [site](https://www.ncbi.nlm.nih.gov/genbank/): busque pela sequência de algum organismo e de um fragmento. Se estiver sem ideia, vamos ver sequências de rã-de-unhas-africana (*Xenopus laevis*) para o fragmento 16S. Digite no campo de busca:
 ```
 Xenopus laevis 16S
 ```
@@ -44,7 +44,7 @@ Continuando com sua ideia da filogenia. Então você quer todas as sequências d
 library("ape")
 library("rentrez")
 
-setwd("C:/caminho/para/psata/desejada")
+setwd("C:/caminho/para/pasta/desejada")
 
 for (i in c("Hylodes", "Megaelosia", "Crossodactylus")){
 
@@ -71,7 +71,7 @@ for (i in c("Hylodes", "Megaelosia", "Crossodactylus")){
   
 }
 ```
-Com isso espera-se que, na pasta desejada, você tenha dois arquivos: **hylodidae_16S.fasta** e **hylodidae_coi.fasta**. Cada um deles vai conter todas as sequências de Hylodidae para o marcador escolhido. Agora é só editar os nomes e sedivertir!
+Com isso espera-se que, na pasta desejada, você tenha dois arquivos: **hylodidae_16S.fasta** e **hylodidae_coi.fasta**. Cada um deles vai conter todas as sequências de Hylodidae para o marcador escolhido. Agora é só editar os nomes e se divertir!
 
 ### Baixando as sequências por GenBank id
 
@@ -99,7 +99,7 @@ seqs <- entrez_fetch(db="nuccore", id=ids.coi, rettype="fasta")
 write(seqs, file = "coi_ids.fasta", sep="\n", append = FALSE)
 ```
 
-Agora você tem no seu computador os arquivos **16S_ids.fasta** e **coi_ids.fasta** com as sequências desejadas. Agora que você possui as sequências, hora de partir para o [alinhamento](https://pedrotaucce.github.io/filogenia/alinhamento/)!
+Agora você tem no seu computador os arquivos **16S_ids.fasta** e **coi_ids.fasta** com as sequências desejadas. Agora que você possui as sequências, hora de partir para o [alinhamento](https://pedrotaucce.github.io/filogenia/alinhamento)!
 
 
 
