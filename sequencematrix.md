@@ -42,3 +42,5 @@ Experimente exportar os três seguintes diferentes formatos de arquivos:
 *\*\*se tiver curiosidade, abra cada um deles em um programa como Bloco de Notas para visualizar suas diferenças.* 
 
 Você também pode fazer o contrário. Importar uma matriz concatenada, e exportar os diferentes fragmentos em arquivos separados. São exatamente os mesmos passos, porém selecionando diferentes formatos. O programa tem outros recursos, mas que estão além do propósito do mini-curso.
+
+Agora que você já tem a matriz concatenada, que tal partir pra [seleção de modelos](https://pedrotaucce.github.io/filogenia/selecaodemodelos) ou para uma análise de [máxima parcimônia](https://pedrotaucce.github.io/filogenia/parcimonia)? Divirta-se!
