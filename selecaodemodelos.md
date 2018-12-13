@@ -36,11 +36,11 @@ Repita o processo com as sequências de 16S. **Você espera que o resultado seja
 
 ## PartitionFinder2
 
-O PartitionFinder2 é um programa muito interessante, porque além de fazer a seleção do melhor modelo molecular, ele também divide suas partições da melhor maneira possível. Quanto mais dividia sua matriz estiver, masi parâmetros os programas de filogenia terão de calcular e maior será o tempo computacional para realizar a tarefa. Então, você divide suas partições no maior número de fragmentos possível e o PF2 analisa seus dados e vê o que pode ser analisado na mesma partição, poupando tempo computacional. Agora veremos como usar esse programa.
+O PartitionFinder2 é um programa muito interessante, porque além de fazer a seleção do melhor modelo molecular, ele também divide suas partições da melhor maneira possível. Quanto mais dividida sua matriz estiver, mais parâmetros os programas de filogenia terão de calcular e maior será o tempo computacional para realizar a tarefa. Então, você divide suas partições no maior número de fragmentos possível e o PF2 analisa seus dados e vê o que pode ser analisado na mesma partição, poupando tempo computacional. Agora veremos como usar esse programa.
 
 1) A primeira coisa que devemos fazer é preparar a nossa matriz, transformando-a em um arquivo phylip. Acabamos de fazer isso na parte de concatenamento, lembram? Você precisará do seu bom arquivo **hylodidae.phy**. 
 
-2) O PF2 não possui interface gráfica. Então, todas os comandos que queremos que o programa realize deverão ser escritas em um arquivo que o programa vai ler enquanto estiver sendo executado. Este arquivo deve obrigatoriamente se chamar **partition_finder.cfg** e existe uma versão modelo dele dentro do diretório onde você instalou o PF2, na pasta:
+2) O PF2 não possui interface gráfica. Então, todos os comandos que queremos que o programa realize deverão ser escritos em um arquivo que o programa vai ler enquanto estiver sendo executado. Este arquivo deve obrigatoriamente se chamar **partition_finder.cfg** e existe uma versão modelo dele dentro do diretório onde você instalou o PF2, na pasta:
 ```
 examples/nucleotide
 ```
@@ -71,7 +71,7 @@ search = all;
 ```
 Como vocês podem ver, mudamos o nome do arquivo de entrada, vamos estimar apenas os modelos que existem no programa mrbayes, dividimos nosso dataset em 4 partições (explico a seguir\*) e vamos procurar todos os esquemas de partições possíveis, o que num dataset como o nosso é factível. Existem algoritmos de busca heurística que o PF2 usa para matrizes com maior número de partições, mas não é nosso caso. **Evite usar ´search = all´ se sua matriz possui mais de 10 partições ou você pode não obter o resultado nesta encarnação**. Quanto mais partições, maior a combinação de esquemas possível.
 
-*\*Como o COI é um gene codificante e uma mudança em cada uma das três posições do códon pode gerar aminoácidos completamente diferentes, podemos supor que cada uma dessas posições evolui de forma independente. Quando escrevemos nos data_blocks '2476-3187\3', estamos dizendo: "Parta da posição 2476 e vá até a posição 3187, pegando de três em três bases".*
+*\*Como o COI é um gene codificante e uma mudança em cada uma das três posições do códon pode gerar aminoácidos completamente diferentes, podemos supor que cada uma dessas posições evolui de forma independente. Quando escrevemos nos data_blocks '2476-3187\3', estamos dizendo: "Parta da posição 2476 e vá até a posição 3187, considerando um nucleotídeo a cada 3 bases".*
 
 
 3) Crie uma pasta e coloque os arquivos **hylodidae.phy** e **partitionfinder.cfg** nessa pasta. Agora abra o prompt de comando do windows (ou o terminal se estiver utilizando um OS Unix) e escreva 'python' e aperte espaço. Agora vá até o diretório onde você instalou o PF2, pegue o arquivo **PartitionFinder.py** e arraste para o prompt de comando (ou terminal) e aperte novamente espaço. Agora pegue a pasta que você criou com os dois arquivos e arraste para o prompt, e então aperte enter. No seu console vai aparecer uma tela mais ou menos assim:
