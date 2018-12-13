@@ -26,6 +26,7 @@ Notebook com os programas a serem utilizados previamente instalados (a seguir). 
 8. [TNT 1.5](http://www.lillo.org.ar/phylogeny/tnt/)
 9. [RAxML 8.2.10](https://github.com/stamatak/standard-RAxML) (baixe a versão *PTHREADS-SSE3, AVX* ou *AVX2*, dependendo da idade do seu processador: *SS3* para os mais velhos e *AVX2* para os mais novos, mais informações no [manual](https://github.com/stamatak/standard-RAxML/raw/master/manual/NewManual.pdf)).
 10. [MrBayes 3.2](http://mrbayes.sourceforge.net/download.php)
+11. [FigTree](https://github.com/rambaut/figtree/releases)
 
 **MUITO IMPORTANTE** é que vocês tenham o [java](https://www.java.com/pt_BR/download/) e o [python 2.7](https://www.python.org/downloads/) (a maneira mais fácil de instalar este python é instalar o programa [Anaconda](https://www.anaconda.com/download/)). Não é o python 3, tem que ser o **python 2!!!**
 
