@@ -32,4 +32,13 @@ Para solucionar isso, clique duas vezes sobre o nome redigido errado, e uma barr
  
 Uma vez que tenha importado todas as sequências e corrigido os nomes errados, agora basta exportar. Menu superior Export. Selecione o formato de arquivo desejado, e uma caixa se abrirá perguntando onde quer salvá-lo.
 
+Experimente exportar os três seguintes diferentes formatos de arquivos:
+
+**hylodidae.tnt** (opção "Export sequences as TNT")<br>
+**hylodidae.nex** (opção "Export sequences as NEXUS ["naked" e.g. for GARLI])<br>
+**hylodidae.phy** (opção "Export sequences for RAxML analyses on CIPRES")<br>
+
+*\*é importante ao digitar o nome do arquivo para salvá-lo, digitar também a sua extensão. Isso vai facilitar sua localização ao usar alguns programas.*<br>
+*\*\*se tiver curiosidade, abra cada um deles em um programa como Bloco de Notas para visualizar suas diferenças.* 
+
 Você também pode fazer o contrário. Importar uma matriz concatenada, e exportar os diferentes fragmentos em arquivos separados. São exatamente os mesmos passos, porém selecionando diferentes formatos. O programa tem outros recursos, mas que estão além do propósito do mini-curso.
