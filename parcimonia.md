@@ -1,4 +1,8 @@
-# TNT - Tree analysis using New Technology
+# O que é a máxima parcimônia?
+
+A máxima parcimônia é um método/filosofia que considera a árvore mais curta (em número de passos de transformação) a melhor hipótese sobre a relação filogenética de um dado conjunto de terminais. Passo de transformação é o custo atribuído à mudança de estado de caráter em um dado ramo da árvore, seja ela a mudança de uma base nucleotídica para outra, de aminoácidos, ou da cor da íris de um animal. Quanto menos transformações, mais curta será a árvore, e por isso, mais parcimoniosa. Neste método, o que os programas fazem é investigar o máximo de topologias alternativas possível (ou todas, se sua matriz tiver menos que 25 terminais; ver mais detalhes abaixo) dada a sua matriz de caracteres. Cada uma delas será mensurada, e as árvores mais curtas (ótimas) serão retidas como o resultado mais parcimonioso (veja mais em Goloboff, 1998; Wheeler, 2012). 
+
+## TNT - Tree analysis using New Technology
 
 Uma vez que você esteja com suas sequências alinhadas e concatenadas, o próximo passo é abrir o seu dataset em um software de análise filogenética. Uma das opções é o TNT: um software gratuito que lida exclusivamente com o critério da Máxima Parcimônia. Ao abrir o programa, a primeira coisa a se fazer é criar um output file (esse será um arquivo .txt que registrará todas as ações realizadas por você no programa). Sugerimos que salve todos os arquivos de uma análise em um mesmo diretório.
 
@@ -200,15 +204,17 @@ Mantenha tudo no default. Como você já selecionou anteriormente o consenso, ve
 
 Como não estamos trabalhando aqui com pesagem implícita, ignore o campo “Relative fit difference” e mantenha-o com o valor 0. No campo superior, “Retain trees suboptimal by” você deverá colocar o número de passos a mais que pretende testar, para achar os valores de Bremer dos seus nós. E aqui se começa um processo de tentativa e erro. Se iniciar por exemplo com um valor de, por exemplo, 15, e clicar em OK nos dois menus, seu resultado aparecerá como um diagrama na tela (para salvá-lo em Metafile, novamente aperte “M”). Você provavelmente verá que, com 15 passos a mais, muitos ramos terão um valor anotado. Este é o valor de Bremer do nó acima dele. Porém, em outros ramos, o valor 15? (acrescido de uma interrogação) estará presente. Isso significa que ao buscar árvores 15 passos mais compridas do que as suas, você ainda não foi capaz de colapsar todos os nós. Sendo assim, você deverá calcular o Bremer novamente, e colocar um valor maior do que 15 em “Retain trees suboptimal by”. E esse processo se repetirá até você atingir valores sem interrogação em todos os ramos.
 
+Agora que vimos o básico de uma análise de máxima parcimônia, vamos aprender um pouco sobre como preparar uma análise de [máxima verossimilhança](https://pedrotaucce.github.io/filogenia/verossimilhanca), e em seguida uma [inferência Bayesiana](https://pedrotaucce.github.io/filogenia/bayesiana)!
+
 ## Referências
 
-Bremer, K. 1988. The limits of amino acid sequence data in Angiosperm phylogenetic reconstruction. Evolution, 42(4): 795–803.<br>
-Goloboff, P. A. 1998. Princípios Básicos de Cladística. Sociedad Argentina de Botánica. 81.<br>
-Goloboff, P. A. 1999. Analyzing large data sets in reasonable times: solutions for composite optima. Cladistics, 15: 415–428.<br>
-Goloboff, P. A.; Farris, J. S. 2001. Methods for quick consensus estimation. Cladistics, 17: S26–S34.<br>
-Goloboff, P. A.; Farris, J. S.; Källersjö, M.; Oxelman, B.; Ramírez, M. J.; Szumik, C. A. 2003. Improvements to resampling measures of group support. Cladistics, 19: 324–332.<br>
-Goodman, M; Olson, C.; Beeher, J.; Czelusniak, J. 1982. New perspectives in the molecular biological analysis of mammalian phylogeny. Acta Zoologica Fennica, 169: 19–35.<br>
-Nixon, K. C. 1999. The Parsimony Ratchet, a new method for rapid parsimony analysis. Cladistics, 15: 407–414.<br>
-Page, R. D. M. 1993. On islands of trees and the efficacy of different methods of branch swapping in finding most-parsimonious trees. Systematic Biology, 42(2): 200–210.<br>
-Siddall, M. E. 2001. Measures of Support. Em: Methods and Tools in Biosciences and Medicine. DeSalle, R.; W. C. Wheeler & G. Giribet (eds.). Basel: Birkhäuser Verlag. Cap. 5, pp. 80–101.<br>
-Wheeler, W. C. 2012. Systematics: a course of lectures. Malaysia: Wiley-Backwell. 426.<br>
+**Bremer, K. 1988**. The limits of amino acid sequence data in Angiosperm phylogenetic reconstruction. Evolution, 42(4): 795–803.<br>
+**Goloboff, P. A.** 1998. Princípios Básicos de Cladística. Sociedad Argentina de Botánica. 81.<br>
+**Goloboff, P. A.** 1999. Analyzing large data sets in reasonable times: solutions for composite optima. Cladistics, 15: 415–428.<br>
+**Goloboff, P. A.; Farris, J. S.** 2001. Methods for quick consensus estimation. Cladistics, 17: S26–S34.<br>
+**Goloboff, P. A.; Farris, J. S.; Källersjö, M.; Oxelman, B.; Ramírez, M. J.; Szumik, C. A.** 2003. Improvements to resampling measures of group support. Cladistics, 19: 324–332.<br>
+**Goodman, M; Olson, C.; Beeher, J.; Czelusniak, J.** 1982. New perspectives in the molecular biological analysis of mammalian phylogeny. Acta Zoologica Fennica, 169: 19–35.<br>
+**Nixon, K. C. 1999.** The Parsimony Ratchet, a new method for rapid parsimony analysis. Cladistics, 15: 407–414.<br>
+**Page, R. D. M. 1993.** On islands of trees and the efficacy of different methods of branch swapping in finding most-parsimonious trees. Systematic Biology, 42(2): 200–210.<br>
+**Siddall, M. E. 2001.** Measures of Support. Em: Methods and Tools in Biosciences and Medicine. DeSalle, R.; W. C. Wheeler & G. Giribet (eds.). Basel: Birkhäuser Verlag. Cap. 5, pp. 80–101.<br>
+**Wheeler, W. C.** 2012. Systematics: a course of lectures. Malaysia: Wiley-Backwell. 426.<br>
