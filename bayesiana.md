@@ -96,8 +96,9 @@ exe hylodidae_local.nex
 ```
 Aperte a tecla *enter* e espere a análise rodar, deve demorar alguns poucos minutos. Ao final da sua análise, a seguinte mensagem irá parecer:
 ```
+Continue with analysis? (yes/no):
 ```
-Escreva ```no``` e aperte *enter*. Pronto! Agora temos que checar se nossas corridas convergiram, ou seja, se deu tudo certo com a nossa análise. Primeiro, abra o arquivo **log.out**. Agora, temos que checar quatro fatores para ter certeza que isso aconteceu:
+Escreva ```no``` e aperte *enter*. Pronto! Agora temos que checar se nossas corridas convergiram, ou seja, se deu tudo certo com a nossa análise. Primeiro, abra o arquivo **log.out**. Agora, temos que checar três fatores para ter certeza que isso aconteceu:
 
 1) Average standard deviation of split frequencies:
 
@@ -172,9 +173,50 @@ Deve estar próximo de 1.0 para considerarmos que as corridas convergiram.
 
 E aí, suas corridas convergiram? Se tiver sido como a nossa análise, parece que não. O melhor a se fazer em casos assim é aumentar o número de gerações. Geralmente, algo em torno de 10 milhões é bem razoável para a maioria das análises. Porém, isso pode demorar demais! Vanmos fazer mais uma análise, mas agora em um servidor.
 
-## 
+## Uso em servidor de alta performance (plataforma CIPRES)
  
- 
+No nosso módulo sobre [verossimilhança](https://pedrotaucce.github.io/filogenia/verossimilhanca) nós já explicamos sobre o bom [*CIPRES Science Gateway*](www.phylo.org). Há também uma versão do MrBayes instalada no portal, e vamos utilizá-la para nossa análise.
+
+Abra o arquivo **hylodidae_local.nex** e mude o número de gerações de 100.000 para 1.000.000 e salve o novo arquivo como **hylodidae_cipres.nex**. Ele vai ficar assim:
+```
+mcmc ngen=1000000 nruns=2 nchains=4 samplefreq=1000 printfreq=1000 relburnin=yes burninfrac=0.25;
+```
+Agora vá até o [*CIPRES Science Gateway*](www.phylo.org) e siga os passos:
+
+1) Após logar novamente na sua conta, vá até a pasta que você criou anteriormente, clique em *Data* e então em *Upload Data*. Depois clique novamente em *Escolher arquivos*, faça o upload do arquivo **hylodidae_cipres.nex** e clique em *save*. 
+
+![Fig1](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_01_bi.png?raw=true)
+
+2) Agora clique em *Tasks* e então em *Create New Task*. Vá em *Select Input Data* e selecione *hylodidae_cipres.nex*, depois clique em *select data*.
+
+![Fig2](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_02_bi.png?raw=true)
+
+3) Vá em *Select Tool* e seleciuone a opção *MrBayes on XSEDE (3.2.6)*. Depois clique em *148 parameters set*.
+
+4) Como você fez um *Data Block* do MrBayes, toda a informação da sua análise está lá. Então clique em *My Data Contains a MrBayes Data Block (CHECK THIS OR MrBayes BLOCK ENTRIES WILL BE OVERWRITTEN!!!)*. Clique em *Save Parameters* e depois em *ok*. 
+
+![Fig3](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_03_bi.png?raw=true)
+
+5) Uma caixa de avisos avisando que o MrBayes utilizado juntamente com o BEAGLE pode ocasionar topologias estranhas. Clique em *ok*. O BEAGLE é um programa que ajuda muito na velocidade das análises, visto que otimiza o uso dos processadores. 
+
+![Fig4](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_04_bi.png?raw=true)
+
+6) Clique em *Save and Run Task*, depois em *OK* e espere a análise terminar. Você pode acompanhar o andamento da sua análise clicando em *View Status*, depois em *Intermediate Results* e baixando o arquivo *stdout.txt*.
+
+![Fig5](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_05_bi.png?raw=true)
+![Fig6](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_06_bi.png?raw=true)
+
+Agora é só esperar alguns minutos até sua análise terminar. 
+
+Depois da análise terminada, baixe os arquivos **stdout.txt** e **infile.nex.con.tre**. Abra o primeiro arquivo em um editor de texto e analise a convergência das corridas. Com 10 vezes mais gerações, os parâmetros melhoraram? Dessa vez todos os parâmetros foram amostrados suficientemente?
+
+Abra o arquivo **infile.nex.con.tre** com o FigTree. Note que há algumas politomias. Isso ocorre porque esta árvore é uma árvore de consenso de maioria, onde clados com menos de 0.5 (ou 50%) de probabilidade posterior são colapsados. 
+
+É isso, pessoal! Espero que tenham gostado. Qualquer coisa estamos á disposição!
+
+Obrigado!!!
+
 ## Referências
 
-**Ronquist F, Teslenko M, van der Mark P, Ayres DL, Darling A, Höhna S, Larget B, Liu L, Suchard MA, Huelsenbeck, JP.** (2012) MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space. Systematic Biology. 61:539-542.
+**Gelman A, Rubin DB.** (1992). Inference from iterative simulation using multiple sequences. Statistical Sciences 7:457–472.
+**Ronquist F, Teslenko M, van der Mark P, Ayres DL, Darling A, Höhna S, Larget B, Liu L, Suchard MA, Huelsenbeck, JP.** (2012). MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space. Systematic Biology 61:539-542.
