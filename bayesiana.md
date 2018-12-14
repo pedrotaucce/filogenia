@@ -171,7 +171,7 @@ Deve estar próximo de 1.0 para considerarmos que as corridas convergiram.
       ----------------------------------------------------------------------------------------------------
 ```
 
-E aí, suas corridas convergiram? Se tiver sido como a nossa análise, parece que não. O melhor a se fazer em casos assim é aumentar o número de gerações. Geralmente, algo em torno de 10 milhões é bem razoável para a maioria das análises. Porém, isso pode demorar demais! Vanmos fazer mais uma análise, mas agora em um servidor.
+E aí, suas corridas convergiram? Se tiver sido como a nossa análise, parece que não. O melhor a se fazer em casos assim é aumentar o número de gerações. Geralmente, algo em torno de 10 milhões é bem razoável para a maioria das análises. Porém, isso pode demorar demais! Vamos fazer mais uma análise, mas agora em um servidor.
 
 ## Uso em servidor de alta performance (plataforma CIPRES)
  
