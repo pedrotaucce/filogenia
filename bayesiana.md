@@ -218,5 +218,5 @@ Obrigado!!!
 
 ## Referências
 
-**Gelman A, Rubin DB.** (1992). Inference from iterative simulation using multiple sequences. Statistical Sciences 7:457–472.
-**Ronquist F, Teslenko M, van der Mark P, Ayres DL, Darling A, Höhna S, Larget B, Liu L, Suchard MA, Huelsenbeck, JP.** (2012). MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space. Systematic Biology 61:539-542.
+**Gelman A, Rubin DB.** (1992). Inference from iterative simulation using multiple sequences. Statistical Sciences 7:457–472.<br>
+**Ronquist F, Teslenko M, van der Mark P, Ayres DL, Darling A, Höhna S, Larget B, Liu L, Suchard MA, Huelsenbeck, JP.** (2012). MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space. Systematic Biology 61:539-542.<br>
