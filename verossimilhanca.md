@@ -4,10 +4,10 @@ Existem vários softwares para inferir árvores filogenéticas utilizando o crit
 
 ## Uso local
 
-O input do RAxML são arquivos *fasta* ou *phylip*, sendo o segundo a melhor opção (já tive problemas tentando fazê-lo ler o primeiro). Então vamos aos passos:
+O input do RAxML é feito com arquivos *fasta* ou *phylip*, sendo o segundo a melhor opção (já tive problemas tentando fazê-lo ler o primeiro). Então vamos aos passos:
 
 1) Pegue seu arquivo **hylodidae.phy** e coloque-o na pasta em que vai analisá-lo. 
-2) O RAxML suporta inferir os parâmetros de maneira diferente para as diferentes partições. Lembra do nosso resultado do [PartitionFinder2](https://pedrotaucce.github.io/filogenia/selecaodemodelos)? Pois é, foram 4 as partições definidas. Vá até o seu editor de texto favorito (blocode notas, notepad, etc.) e escreva o seguinte:
+2) O RAxML suporta inferir os parâmetros de maneira diferente para as diferentes partições. Lembra do nosso resultado do [PartitionFinder2](https://pedrotaucce.github.io/filogenia/selecaodemodelos)? Pois é, foram 4 as partições definidas. Vá até o seu editor de texto favorito (bloco de notas, notepad, etc.) e escreva o seguinte:
 ```
 DNA, h1 = 1-2475
 DNA, coi_pos1 = 2476-3187\3
