@@ -48,3 +48,8 @@ Cique nos links no quadro abaixo para ver o conteúdo das aulas:
 |               |16:00<br>18:00|Construindo a árvore utilizando o <br>critério da máxima parcimônia|[-O que é máxima parcimônia?<br>-Introdução ao programa TNT](https://pedrotaucce.github.io/filogenia/parcimonia)|
 |Domingo (16/12)|08:00<br>10:00|Construindo a árvore utilizando o <br>critério da máxima verossimilhança|[-O que é máxima verossimilhança<br> - Introdução ao programa RAxML](https://pedrotaucce.github.io/filogenia/verossimilhanca)
 |               |10:00<br>12:00|Construindo a árvore utilizando <br> inferência Bayesiana|[-O que é inferência Bayesiana?<br>-Introdução ao programa MrBayes](https://pedrotaucce.github.io/filogenia/bayesiana)
+
+
+## Agradecimentos
+
+Agradecemos ao [RADCamp](https://radcamp.github.io/) e seus instrutores, que inspiraram totalmente o formato desse curso e desse site!
