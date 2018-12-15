@@ -1,0 +1,97 @@
+Settings used
+
+alignment         : .\hylodidae.phy
+branchlengths     : linked
+models            : JC, K80, SYM, F81, HKY, GTR, JC+G, K80+G, SYM+G, F81+G, HKY+G, GTR+G, JC+I, K80+I, SYM+I, F81+I, HKY+I, GTR+I, JC+I+G, K80+I+G, SYM+I+G, F81+I+G, HKY+I+G, GTR+I+G
+model_selection   : aicc
+search            : all
+
+
+Best partitioning scheme
+
+Scheme Name       : 15
+Scheme lnL        : -14918.8027649
+Scheme AICc       : 30001.778099
+Number of params  : 80
+Number of sites   : 3187
+Number of subsets : 4
+
+Subset | Best Model | # sites    | subset id                        | Partition names                                                                                     
+1      | GTR+I+G    | 2475       | 9ac8bbba05209f96ec4d19c5e4fab21b | h1                                                                                                  
+2      | GTR+I      | 238        | 0f03d51d93b6aac6f9675d4eedd47366 | coi_pos1                                                                                            
+3      | F81+I      | 237        | 6d541afc4b652dcb6aa375a3b3ac892f | coi_pos2                                                                                            
+4      | GTR+G      | 237        | 09cdef68990b0353791721e34a55ce50 | coi_pos3                                                                                            
+
+
+Scheme Description in PartitionFinder format
+Scheme_15 = (h1) (coi_pos1) (coi_pos2) (coi_pos3);
+
+Nexus formatted character sets
+begin sets;
+	charset Subset1 = 1-2475;
+	charset Subset2 = 2476-3187\3;
+	charset Subset3 = 2477-3187\3;
+	charset Subset4 = 2478-3187\3;
+	charpartition PartitionFinder = Group1:Subset1, Group2:Subset2, Group3:Subset3, Group4:Subset4;
+end;
+
+
+Nexus formatted character sets for IQtree
+Warning: the models written in the charpartition are just the best model found in this analysis. Not all models are available in IQtree, so you may need to set up specific model lists for your analysis
+
+#nexus
+begin sets;
+	charset Subset1 = 1-2475;
+	charset Subset2 = 2476-3187\3;
+	charset Subset3 = 2477-3187\3;
+	charset Subset4 = 2478-3187\3;
+	charpartition PartitionFinder = GTR+I+G:Subset1, GTR+I:Subset2, F81+I:Subset3, GTR+G:Subset4;
+end;
+
+
+RaxML-style partition definitions
+Warning: RAxML allows for only a single model of rate heterogeneity in partitioned analyses. I.e. all partitions must be assigned one of three types of model: No heterogeneity (e.g. GTR); +G (e.g. GTR+G); or +I+G (e.g. GTR+I+G). If the best models for your datasetcontain different types of model for different subsets you will need to decide on the best rate heterogeneity model before you run RAxML. If you prefer to do things more rigorously, you can run separate PartitionFinder analyses for each type of rate heterogenetity Then choose the scheme with the lowest AIC/AICc/BIC score. Note that these re-runs will be quick!
+
+DNA, Subset1 = 1-2475
+DNA, Subset2 = 2476-3187\3
+DNA, Subset3 = 2477-3187\3
+DNA, Subset4 = 2478-3187\3
+
+
+MrBayes block for partition definitions
+Warning: MrBayes only allows a relatively small collection of models. If any model in your analysis is not one that is included in MrBayes (e.g. by setting nst = 1, 2, or 6 for DNA sequences; or is not in the available list of protein models for MrBayes)then this MrBayes block will just set that model to nst = 6 for DNA, or 'wag' for Protein. Similarly, the only additional parameters that this MrBayes block will include are +I and +G. Other  parameters, such as +F and +X, are ignored. If you want to use this MrBayes block for your analysis, please make sure to check it carefully before you use it we've done our best to make it accurate, but there may be errors that remain!
+
+begin mrbayes;
+
+	charset Subset1 = 1-2475;
+	charset Subset2 = 2476-3187\3;
+	charset Subset3 = 2477-3187\3;
+	charset Subset4 = 2478-3187\3;
+
+	partition PartitionFinder = 4:Subset1, Subset2, Subset3, Subset4;
+	set partition=PartitionFinder;
+
+	lset applyto=(1) nst=6 rates=invgamma;
+	lset applyto=(2) nst=6 rates=propinv;
+	lset applyto=(3) nst=1 rates=propinv;
+	lset applyto=(4) nst=6 rates=gamma;
+
+	prset applyto=(all) ratepr=variable;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
+
+end;
+
+
+
+*Citations for this analysis*
+-----------------------------
+If you use this analysis in your published work, please cite the following papers on which your analysis relied.
+
+For the version of PartitionFinder you used, please cite:
+Lanfear, R., Frandsen, P. B., Wright, A. M., Senfeld, T., Calcott, B. (2016) PartitionFinder 2: new methods for selecting partitioned models of evolution formolecular and morphological phylogenetic analyses. Molecular biology and evolution. DOI: dx.doi.org/10.1093/molbev/msw260
+
+For the all algorithm you used, please cite:
+
+Your analysis also used PhyML, so please cite:
+Guindon, S., Dufayard, J. F., Lefort, V., Anisimova, M., Hordijk, W., & Gascuel, O. (2010). New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0. Systematic biology, 59(3), 307-321.
+
