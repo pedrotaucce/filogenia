@@ -104,7 +104,7 @@ INFO     | 2018-12-12 20:01:50,385 | Using a separate GTR+G model for each data 
 ```
 Agora é só esperar uns 10 a 15 minutos e ver a mágica acontecer. 
 
-4) Agora que a análise terminou, vá até a pasta que você criou e veja o arquivo **best_scheme.txt** e veja quais são suas partições e quais os modelos escolhidos!
+4) Agora que a análise terminou, vá até a pasta que você criou e veja o arquivo **best_scheme.txt** e veja quais são suas partições e quais os modelos escolhidos! Ou então baixe o arquivo <a href="files/best_scheme.txt" download="best_scheme.txt">best_scheme.txt</a>
 
 Pronto! Agora que já tem os modelos de substituição nucleotídica, pode fazer uma análise de [máxima verossimilhança](https://pedrotaucce.github.io/filogenia/verossimilhanca) ou de [inferência Bayesiana](https://pedrotaucce.github.io/filogenia/bayesiana). Mas primeiro vamos fazer uma análise de [máxima parcimônia](https://pedrotaucce.github.io/filogenia/parcimonia)?
 
