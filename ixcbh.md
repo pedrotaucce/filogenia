@@ -20,12 +20,14 @@ detalhadamente.
 
 Notebook com os programas a serem utilizados previamente instalados (a seguir). Lembre-se de baixar a versão de acordo com o seu sistema operacional!
 
-1. [Mega software](https://www.megasoftware.net/)
-2. [MAFFT 7](https://mafft.cbrc.jp/alignment/software/)
-3. [SequenceMatrix](https://github.com/gaurav/taxondna/releases/tag/1.8)
-4. [PartitionFinder2](https://github.com/brettc/partitionfinder/releases/tag/v2.1.1)
-5. [MrBayes 3.2](http://mrbayes.sourceforge.net/download.php)
-6. [FigTree](https://github.com/rambaut/figtree/releases)
+1. [R](https://vps.fmvz.usp.br/CRAN/)
+2. [R Studio](https://www.rstudio.com/products/rstudio/download/#download) (necessita do R previamente instalado)
+3. [Mega software](https://www.megasoftware.net/)
+4. [MAFFT 7](https://mafft.cbrc.jp/alignment/software/)
+5. [SequenceMatrix](https://github.com/gaurav/taxondna/releases/tag/1.8)
+6. [PartitionFinder2](https://github.com/brettc/partitionfinder/releases/tag/v2.1.1)
+7. [MrBayes 3.2](http://mrbayes.sourceforge.net/download.php)
+8. [FigTree](https://github.com/rambaut/figtree/releases)
 
 **MUITO IMPORTANTE** é que vocês tenham o [java](https://www.java.com/pt_BR/download/) e o [python 2.7](https://www.python.org/downloads/) 
 (a maneira mais fácil de instalar este python é instalar o programa [Anaconda](https://www.anaconda.com/download/)). 
