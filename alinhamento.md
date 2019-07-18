@@ -71,7 +71,7 @@ Strategy?
   6. E-INS-i  (accurate)
 @ 3
 ```
-Por último, podemos adicionar outros parâmetros. Adicionaremos apenas um, para que as bases das sequências sejam mantidas em letra maiúscula (*--preservecase*). Depois é só apertar a tecla *enter*. Quando o programa terminar, aperte a letra *q* e então a tecla *enter*.
+Por último, podemos adicionar outros parâmetros. Adicionaremos apenas um, para que as bases das sequências sejam mantidas em letra maiúscula (*\-\-preservecase*). Depois é só apertar a tecla *enter*. Quando o programa terminar, aperte a letra *q* e então a tecla *enter*.
 ```
 Additional arguments? (--ep # --op # --kappa # etc)
 @ --preservecase
@@ -82,7 +82,7 @@ OK?
 @ [Y]
 ```
 
-Agora vamos fazer a mesma coisa com o fragmento 16S. com apenas algumas diferenças. Na hora de escolhermos o algoritmo, escolheremos o número 6, *E-INS-i*, que lida bem com fragmentos como este. Também adicionaremos o parâmetro *--maxiterate 1000*, pois este algoritmo faz iterações e vai tentando refinar o alinhamento até conseguir um alinhamento satisfatório. Com este parâmetro aumentaremos o número de iterações possíveis para 1000. Teremos as seguintes diferenças co relação ao alinhamento anterior:
+Agora vamos fazer a mesma coisa com o fragmento 16S. com apenas algumas diferenças. Na hora de escolhermos o algoritmo, escolheremos o número 6, *E-INS-i*, que lida bem com fragmentos como este. Também adicionaremos o parâmetro *\-\-maxiterate 1000*, pois este algoritmo faz iterações e vai tentando refinar o alinhamento até conseguir um alinhamento satisfatório. Com este parâmetro aumentaremos o número de iterações possíveis para 1000. Teremos as seguintes diferenças co relação ao alinhamento anterior:
 ```
   1. --auto
   2. FFT-NS-1 (fast)
