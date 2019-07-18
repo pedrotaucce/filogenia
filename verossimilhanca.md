@@ -42,7 +42,7 @@ cd Documents\raxml
 
 6) Agora é hora de ver com que frequência os clados da sua árvore mais verossímil aparecem nas suas réplicas de bootstrap. Arraste novamente sua versão do programa para o prompt, aperte espaço e digite:
 ```
--f b -m GTRGAMMA -t RAxML_bestTree.ml -z RAxML_bootstrap.bootstrap -s nome_do_arquivo.phy -n tre -T 2
+-f b -m GTRGAMMA -t RAxML_bestTree.ml -z RAxML_bootstrap.bootstrap -o Limenomedusa_macroglossa -s nome_do_arquivo.phy -n tre -T 2
 ```
 **-t RAxML_bestTree.ml** - Este parâmetro indica que o arquivo **RAxML_bestTree.ml** contem a árvore mais verossímil.<br>
 **-z RAxML_bootstrap.bootstrap** - Este parâmetro indica que o arquivo **RAxML_bootstrap.bootstrap** contem suas réplicas de bootstrap.<br>
