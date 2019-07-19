@@ -45,10 +45,10 @@ Cique nos links no quadro abaixo para ver o conteúdo das aulas:
 
 |Horário|Aula|Conteúdo|
 |:---:|:---:|:---:|
-|08:00<br>10:00|Introdução            |- Introdução ao minicurso<br>- Instalação dos softwares nas máquinas dos alunos<br>- [Apresentação da plataforma e aquisição de sequências do GenBank](https://pedrotaucce.github.io/filogenia/genbank)|
-|10:00<br>12:00|Construindo a Matriz  |[- Alinhamento: qual software utilizar?<br>- Alinhamento: utilizando o software Muscle implementado no programa MEGA<br>- Alinhamento: utilizando o software MAFFT através de linha de comando e servidor online](https://pedrotaucce.github.io/filogenia/alinhamento)<br>- [Concatenamento: programa Sequence Matrix](https://pedrotaucce.github.io/filogenia/sequencematrix)|
-|13:00<br>14:00|Particionando a Matriz e escolhendo <br>o modelo molecular que mais se encaixa nos dados|[- Particionamento da matriz<br>- Escolha do melhor modelo](https://pedrotaucce.github.io/filogenia/selecaodemodelos)|
-|14:00<br>16:00|Construindo a árvore utilizando <br> inferência Bayesiana|[-O que é inferência Bayesiana?<br>-Introdução ao programa MrBayes](https://pedrotaucce.github.io/filogenia/bayesiana)
+|08:00<br>10:00|Introdução            |- Introdução ao minicurso<br>- Instalação dos softwares nas máquinas dos alunos<br>- [Apresentação da plataforma e aquisição de sequências do GenBank](https://pedrotaucce.github.io/filogenia/genbank_ixcbh)|
+|10:00<br>12:00|Construindo a Matriz  |[- Alinhamento: qual software utilizar?<br>- Alinhamento: utilizando o software Muscle implementado no programa MEGA<br>- Alinhamento: utilizando o software MAFFT através de linha de comando e servidor online](https://pedrotaucce.github.io/filogenia/alinhamento_ixcbh)<br>- [Concatenamento: programa Sequence Matrix](https://pedrotaucce.github.io/filogenia/sequencematrix_ixcbh)|
+|13:00<br>14:00|Particionando a Matriz e escolhendo <br>o modelo molecular que mais se encaixa nos dados|[- Particionamento da matriz<br>- Escolha do melhor modelo](https://pedrotaucce.github.io/filogenia/selecaodemodelos_ixcbh)|
+|14:00<br>16:00|Construindo a árvore utilizando <br> inferência Bayesiana|[-O que é inferência Bayesiana?<br>-Introdução ao programa MrBayes](https://pedrotaucce.github.io/filogenia/bayesiana_ixcbh)
 
 
 ## Agradecimentos
