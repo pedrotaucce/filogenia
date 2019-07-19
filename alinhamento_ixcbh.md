@@ -113,7 +113,7 @@ Agora o navegador irá para outra página, com os resultados. Para baixar o arqu
 
 ![Fig4](https://github.com/pedrotaucce/filogenia/blob/master/figures/fig_04_al.png?raw=true)
 
-Agora com os alinhamentos terminados podemos avançar e ir [concatenar a matriz](https://pedrotaucce.github.io/filogenia/sequencematrix)!
+Agora com os alinhamentos terminados podemos avançar e ir [concatenar a matriz](https://pedrotaucce.github.io/filogenia/sequencematrix_ixcbh)!
 ## Referências
 
 Edgar RC. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Research, 32, 1792-1797.<br>
