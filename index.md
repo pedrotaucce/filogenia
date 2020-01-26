@@ -8,7 +8,7 @@ Noções básicas de sistemática. Como o minicurso visa a familiarização com 
 detalhadamente.
 
 ## Edições passadas
-[15 e 16 de dezembro de 2018 - V Simpósio de Zoologia Sistemática (curso completo - 12h)](https://pedrotaucce.github.io/filogenia/simposio_ufmg)
+[15 e 16 de dezembro de 2018 - V Simpósio de Zoologia Sistemática (curso completo - 12h)](https://pedrotaucce.github.io/filogenia/simposio_ufmg)<br>
 [22 de julho de 2019 - IX Congresso Brasileiro de Herpetologia (versão reduzida - 7h)](https://pedrotaucce.github.io/filogenia/ixcbh)
 
 ## Edições por vir
