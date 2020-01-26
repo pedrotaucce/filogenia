@@ -9,9 +9,12 @@ detalhadamente.
 
 ## Edições passadas
 [15 e 16 de dezembro de 2018 - V Simpósio de Zoologia Sistemática (curso completo - 12h)](https://pedrotaucce.github.io/filogenia/simposio_ufmg)
+[22 de julho de 2019 - IX Congresso Brasileiro de Herpetologia (versão reduzida - 7h)](https://pedrotaucce.github.io/filogenia/ixcbh)
 
 ## Edições por vir
-[22 de julho de 2019 - IX Congresso Brasileiro de Herpetologia (versão reduzida - 7h)](https://pedrotaucce.github.io/filogenia/ixcbh)
+
+[29 de janeiro de 2019 - Curso de Verão em Sistemática Zoológica da UFMG (curso teórico adaptad - um dia de aula)](https://pedrotaucce.github.io/filogenia/curso_verao_ufmg)
+
 ## Material a ser levado pelos alunos
 
 Notebook com os **programas** a serem utilizados previamente instalados, **listados na página de cada curso**. Lembre-se de baixar as versões de acordo com o seu sistema operacional! Em todo caso, é **MUITO IMPORTANTE** que vocês tenham o [java](https://www.java.com/pt_BR/download/) e o [python 2.7](https://www.python.org/downloads/). Devido a algumas bibliotecas que vamos precisar, a melhor e mais fácil maneira de instalar este python é instalar o programa [Anaconda](https://www.anaconda.com/download/). Não é o python 3, tem que ser o **python 2!!!**
@@ -19,9 +22,11 @@ Notebook com os **programas** a serem utilizados previamente instalados, **lista
 ## Instrutores
 
 - [Dr. Pedro Taucce](http://www.pedrotaucce.org)<br>
-- [Dr. Paulo Pinheiro](http://lattes.cnpq.br/8623318349513480)
+- [Dr. Paulo Pinheiro](http://www.https://pinheiropdp.weebly.com/)
 
+## Parcerias 
 
+- [Dr. Rachel Montesinos](http://lattes.cnpq.br/3354579224369266)
 ## Conteúdo Geral (depende do tempo do minicurso)
 
 Cique nos links no quadro abaixo para ver o conteúdo das aulas:
