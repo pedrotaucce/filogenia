@@ -13,7 +13,7 @@ detalhadamente.
 
 ## Edições por vir
 
-[29 de janeiro de 2019 - Curso de Verão em Sistemática Zoológica da UFMG (curso teórico adaptad - um dia de aula)](https://pedrotaucce.github.io/filogenia/curso_verao_ufmg)
+[29 de janeiro de 2020 - Curso de Verão em Sistemática Zoológica da UFMG (curso teórico adaptado - um dia de aula)](https://pedrotaucce.github.io/filogenia/curso_verao_ufmg)
 
 ## Material a ser levado pelos alunos
 
@@ -26,7 +26,7 @@ Notebook com os **programas** a serem utilizados previamente instalados, **lista
 
 ## Parcerias 
 
-- [Dr. Rachel Montesinos](http://lattes.cnpq.br/3354579224369266)
+- [Dra. Rachel Montesinos](http://lattes.cnpq.br/3354579224369266)
 ## Conteúdo Geral (depende do tempo do minicurso)
 
 Cique nos links no quadro abaixo para ver o conteúdo das aulas:
