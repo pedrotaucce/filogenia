@@ -40,8 +40,8 @@ Cique nos links no quadro abaixo para ver os tutoriais a serem utilizados:
 |:---:|:---:|:---:|
 |08:30<br>10:00|- Caracteres morfológicos            |- [Introdução ao software Mesquite](https://pedrotaucce.github.io/filogenia/mesquite)<br>|
 |10:30<br>12:00|- Caracteres moleculares|- [Apresentação da plataforma e aquisição de sequências do GenBank](https://pedrotaucce.github.io/filogenia/genbank)<br>- [Alinhamento](https://pedrotaucce.github.io/filogenia/alinhamento)<br>- [Concatenamento](https://pedrotaucce.github.io/filogenia/sequencematrix)|
-|14:00<br>15:30|- Critérios de optimalidade: máxima parcimônia|- [Introdução ao software TNT](https://pedrotaucce.github.io/filogenia/parcimonia)|
-|16:00<br>18:00|- Seleção de modelos<br>- Critérios de optimalidade: máxima verossimilhança e<br>inferência Bayesiana|- [Seleçao do melhor modelo de substituição nucleotídica](https://pedrotaucce.github.io/filogenia/selecaodemodelos)<br>- [Introdução ao programa RAxML](https://pedrotaucce.github.io/filogenia/verossimilhanca)<br>- [Introdução ao programa MrBayes](https://pedrotaucce.github.io/filogenia/bayesiana)
+|14:00<br>15:30|- Critérios de otimalidade: máxima parcimônia|- [Introdução ao software TNT](https://pedrotaucce.github.io/filogenia/parcimonia)|
+|16:00<br>18:00|- Seleção de modelos<br>- Critérios de otimalidade: máxima verossimilhança e<br>inferência Bayesiana|- [Seleçao do melhor modelo de substituição nucleotídica](https://pedrotaucce.github.io/filogenia/selecaodemodelos)<br>- [Introdução ao programa RAxML](https://pedrotaucce.github.io/filogenia/verossimilhanca)<br>- [Introdução ao programa MrBayes](https://pedrotaucce.github.io/filogenia/bayesiana)
 
 
 ## Agradecimentos
