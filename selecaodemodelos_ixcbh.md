@@ -118,7 +118,7 @@ estrutura computacional e os softwares instalados! Vamos utilizar a versão do P
 infile.phy*, assim:
 ```
 ## ALIGNMENT FILE ##
-alignment = hylodidae.phy;
+alignment = infile.phy;
 ```
 Esse passo é um passo obrigatório para a análie no CIPRES, ou sua corrida não irá fincionar.
 
