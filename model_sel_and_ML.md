@@ -27,13 +27,11 @@ O PF2, assim como o RAxML, utiliza arquivos phylip (.phy).
 2) Abra o arquivo **hylodidae.phy** em um editor de texto e dê uma olhadela. O que você vê? Quantos terminais são? Quantos pares de base?  
 
 3) O PF2 não possui interface gráfica. Então, todos os comandos que queremos que o programa realize deverão ser escritos em um arquivo 
-que o programa vai ler enquanto estiver sendo executado. Este arquivo deve obrigatoriamente se chamar **partition_finder.cfg** e existe 
-uma versão modelo dele dentro do diretório onde você instalou o PF2, na pasta:
+que o programa vai ler enquanto estiver sendo executado. Este arquivo deve obrigatoriamente se chamar **partition_finder.cfg**. Se você tem o programa instalado em seu computador, existe uma versão modelo dele dentro do diretório onde você instalou o PF2, na pasta:
 ```
 examples/nucleotide
 ```
-Abra o arquivo em um editor de texto (bloco de notas, notepad ou similar). Vamos fazer algumas alterações para que fique como o arquivo 
-abaixo:
+Caso não possua o programa instalado, abra um editor de texto (bloco de notas, notepad ou similar) e escreva o conteúdo abaixo, salvando o arquivo como **partition_finder.cfg**. 
 ```
 ## ALIGNMENT FILE ##
 alignment = infile.phy;
@@ -59,7 +57,7 @@ coi_pos3 = 2478-3187\3;
 search = all;
 ```
 Lembrando que, se você for fazer a análise em outro computador que não o do CIPRES, onde está escrito "alignment =" deve estar escrito
-exatamente o nome da sua matriz. No nosso caso, está escrito "infile.phy" pois é uma exigência do Portal.
+exatamente o nome da sua matriz ( no nosso caso, seria hylodidae.phy). Está escrito "infile.phy" pois é uma exigência do portal CIPRES.
 
 Como vocês podem ver, mudamos o nome do arquivo de entrada, vamos estimar apenas os modelos que existem no programa mrbayes, 
 dividimos nosso dataset em 4 partições (explico a seguir\*) e vamos procurar todos os esquemas de partições possíveis, o que num 
