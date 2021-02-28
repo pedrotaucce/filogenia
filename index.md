@@ -8,12 +8,16 @@ Noções básicas de sistemática. Como o minicurso visa a familiarização com 
 detalhadamente.
 
 ## Edições passadas
+
 [15 e 16 de dezembro de 2018 - V Simpósio de Zoologia Sistemática (curso completo - 12h)](https://pedrotaucce.github.io/filogenia/simposio_ufmg)<br>
 [22 de julho de 2019 - IX Congresso Brasileiro de Herpetologia (versão reduzida - 7h)](https://pedrotaucce.github.io/filogenia/ixcbh)
-
-## Edições por vir
-
 [29 de janeiro de 2020 - Curso de Verão em Sistemática Zoológica da UFMG (curso teórico adaptado - um dia de aula)](https://pedrotaucce.github.io/filogenia/curso_verao_ufmg)
+
+## Tutoriais de aula
+
+[Metodologia da Sistemática Filogenética (UFMG) - primeiro semestre de 2021](https://pedrotaucce.github.io/filogenia/msf)
+
+
 
 ## Material a ser levado pelos alunos
 
