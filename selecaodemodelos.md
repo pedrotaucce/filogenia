@@ -60,7 +60,7 @@ model_selection = aicc;
 
 ## DATA BLOCKS: see manual for how to define ##
 [data_blocks]
-h1 = 1-2475\3;
+h1 = 1-2475;
 coi_pos1 = 2476-3187\3;
 coi_pos2 = 2477-3187\3;
 coi_pos3 = 2478-3187\3;
