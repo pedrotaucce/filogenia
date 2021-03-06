@@ -11,4 +11,4 @@ Podem acessar a aula teórica relativa a esse assunto [aqui](https://youtu.be/N5
 
 ## Inferência Bayesiana
 
-Aguarde.
+Podem acessar a aula teórica relativa a esse assunto [aqui](https://youtu.be/iAApguy3dTg). O tutorial será postado amanhã.
