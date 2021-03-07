@@ -11,4 +11,4 @@ Podem acessar a aula teórica relativa a esse assunto [aqui](https://youtu.be/N5
 
 ## Inferência Bayesiana
 
-Podem acessar a aula teórica relativa a esse assunto [aqui](https://youtu.be/iAApguy3dTg). O tutorial será postado amanhã.
+Podem acessar a aula teórica relativa a esse assunto [aqui](https://youtu.be/iAApguy3dTg). O tutorial está [aqui](https://pedrotaucce.github.io/filogenia/bayesiana_msf). Espero que gostem!
